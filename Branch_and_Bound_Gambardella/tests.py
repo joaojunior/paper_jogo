@@ -1,11 +1,11 @@
 import unittest
 
 from models import DigraphInterval, Digraph
-from algorithms import Dijkstra
+from algorithms import Dijkstra, BranchBoundRSP
 
 class TestDigraphInterval(unittest.TestCase):
 	def setUp(self):
-		self.g = DigraphInterval(source=0, dest=3)
+		self.g = DigraphInterval()
 		self.g.insert_edge(source=0, dest=1, lb=87, ub=10087)
 		self.g.insert_edge(source=0, dest=2, lb=84, ub=10084)
 		self.g.insert_edge(source=1, dest=0, lb=16, ub=10016)
@@ -88,6 +88,61 @@ class TestDijkstra(unittest.TestCase):
         path, cost = self.dijkstra.get_shortest_path_and_cost_shortest_path(self.no3)
         self.assertEqual(caminhoEsperado,path)
         self.assertEqual(cost_expect,cost)
+
+class TestBranchBoundRSP(unittest.TestCase):
+    def setUp(self):
+        self.g = DigraphInterval()
+        self.g.insert_edge(source=0, dest=1, lb=87, ub=10087)
+        self.g.insert_edge(source=0, dest=2, lb=84, ub=10084)
+        self.g.insert_edge(source=1, dest=0, lb=16, ub=10016)
+        self.g.insert_edge(source=1, dest=3, lb=78, ub=10078)
+        self.g.insert_edge(source=2, dest=0, lb=94, ub=10094)
+        self.g.insert_edge(source=2, dest=3, lb=36, ub=10036)
+        self.g.insert_edge(source=3, dest=1, lb=87, ub=10087)
+        self.g.insert_edge(source=3, dest=2, lb=93, ub=10093)
+        self.branch_bound_rsp = BranchBoundRSP(0, 3, self.g)
+
+    def test_get_shortest_path_cenario_ub_from_node_0(self):
+        expect = [(0,2), (2,3)]
+        path, cost = self.branch_bound_rsp.get_shortest_path_cenario_ub_from_node(0)
+        self.assertListEqual(expect, path)
+        self.assertEqual(10084 + 10036, cost)
+
+    def test_get_shortest_path_cenario_ub_from_node_1(self):
+        expect = [(0,1), (1,3)]
+        self.branch_bound_rsp.edges_in.update({1:[(0, 1)]})
+        path, cost = self.branch_bound_rsp.get_shortest_path_cenario_ub_from_node(1)
+        self.assertListEqual(expect, path)
+        self.assertEqual(10087 + 10078, cost)
+
+    def test_get_shortest_path_cenario_ub_from_node_0_with_not_edge_0_2(self):
+        expect = [(0,1), (1,3)]
+        self.branch_bound_rsp.edges_out.update({0:[(0, 2)]})
+        path, cost = self.branch_bound_rsp.get_shortest_path_cenario_ub_from_node(0)
+        self.assertListEqual(expect, path)
+        self.assertEqual(10087 + 10078, cost)
+
+    def test_get_robust_cost_to_path_p(self):
+        path = [(0,2), (2,3)]
+        cost = 10084 + 10036
+        expect = (cost - (87 + 78)) / float(87 + 78)
+        self.assertEqual(expect, self.branch_bound_rsp.get_robust_cost_to_path_p(path, cost))
+
+    def test_get_first_edge_in_p_d_and_not_in_in_d(self):
+        expect = (1, 3)
+        self.branch_bound_rsp.edges_in.update({0:[(0,1)]})
+        self.assertEqual(expect, self.branch_bound_rsp.get_first_edge_in_p_d_and_not_in_in_d([(0,1), (1,3)], 0))
+
+    def test_calculate_lower_bound(self):
+        expect = 0
+        self.assertEqual(expect, self.branch_bound_rsp.calculate_lower_bound(0))
+    
+    def test_execute(self):
+        expect_solution = [(0, 2), (2, 3)]
+        expect_cost = 120.93939393939394
+        cost, solution = self.branch_bound_rsp.execute()
+        self.assertEqual(expect_solution, solution)
+        self.assertEqual(expect_cost, cost)
 
 if __name__ == '__main__':
 	unittest.main()

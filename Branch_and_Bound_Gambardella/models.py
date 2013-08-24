@@ -1,9 +1,7 @@
 class DigraphInterval(object):
 	LB = 0
 	UB = 1
-	def __init__(self, source, dest):
-		self.source = source
-		self.dest = dest
+	def __init__(self):
 		self.edges_starts_node_i = {}
 
 	def insert_edge(self, source, dest, lb, ub):
