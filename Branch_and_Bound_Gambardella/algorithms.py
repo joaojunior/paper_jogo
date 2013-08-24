@@ -112,6 +112,12 @@ class BranchBoundRSP(object):
                         self.S.append(d_one)
                 self.edges_in[d_two] = self.edges_in[d] + [a]
                 self.edges_out[d_two] = self.edges_out[d]
+                self.apply_rule1(d_two)
+                self.apply_rule2(d_two)
+                lb_dtwo = self.calculate_lower_bound(d_two)
+                if lb_dtwo < robust_cost:
+                    self.lower_bound[d_two] = lb_dtwo
+                    self.S.append(d_two)
         return robust_cost, ub_path
         #, colect_time.cpu_time() - start
 
