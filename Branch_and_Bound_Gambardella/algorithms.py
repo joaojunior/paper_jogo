@@ -8,7 +8,8 @@ class Dijkstra(object):
         self.source = source
         self.s = [source]
         self.complementoS = graph.nodes[:]
-        self.complementoS.remove(source)
+        if source in self.complementoS:
+            self.complementoS.remove(source)
         self.shortest_path_in_node = {}
         self.antecessor = {}
         self.start_shortest_distance()
