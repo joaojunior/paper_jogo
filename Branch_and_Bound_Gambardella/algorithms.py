@@ -1,3 +1,4 @@
+import colect_time
 from models import Digraph
 
 class Dijkstra(object):
@@ -80,7 +81,8 @@ class BranchBoundRSP(object):
         ub_path, cost = self.get_shortest_path_cenario_ub_from_node(self.source)
         robust_cost = self.get_robust_cost_to_path_p(ub_path, cost)
         d_count = 1
-        while self.S:
+        start = colect_time.cpu_time()
+        while (self.S and colect_time.cpu_time() - start <= 7200):
             shortest_lower_bound = 100000
             for node in self.S:
                 if self.lower_bound[node] < shortest_lower_bound:
@@ -111,6 +113,7 @@ class BranchBoundRSP(object):
                 self.edges_in[d_two] = self.edges_in[d] + [a]
                 self.edges_out[d_two] = self.edges_out[d]
         return robust_cost, ub_path
+        #, colect_time.cpu_time() - start
 
     def get_shortest_path_cenario_ub_from_node(self, node):
         edges_in = self.edges_in.get(node, [])
@@ -191,3 +194,23 @@ class BranchBoundRSP(object):
                 else:
                     graph.insert_edge(source, dest, self.digraph_interval.get_upper_bound_edge(source, dest))
         return graph
+
+    def apply_rule1(self, d):
+        for edge in self.edges_in[d]:
+            i = edge[0]
+            j = edge[1]
+            edges = self.digraph_interval.edges_starts_node_i[i]
+            for k in edges.keys():
+                if (i, k) != (i,j) and (i, k) not in self.edges_out[d]:
+                    self.edges_out[d].append((i, k))
+
+    def apply_rule2(self, d):
+        for edge in self.edges_in[d]:
+            i = edge[0]
+            j = edge[1]
+            nodes = self.digraph_interval.edges_starts_node_i.keys()
+            for k in nodes:
+                edges = self.digraph_interval.edges_starts_node_i[k]
+                if j in edges.keys():
+                    if (k, j) != (i,j) and (k, j) not in self.edges_out[d]:
+                        self.edges_out[d].append((k, j))
