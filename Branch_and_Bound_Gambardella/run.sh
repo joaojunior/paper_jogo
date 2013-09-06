@@ -38,4 +38,35 @@ python main.py 'arquivo_testes/K-1500-200-0.9-b-100' >> result.txt
 python main.py 'arquivo_testes/K-1500-200-0.9-b-25' >> result.txt
 python main.py 'arquivo_testes/K-1500-200-0.9-b-5' >> result.txt
 python main.py 'arquivo_testes/K-1500-200-0.9-b-50' >> result.txt
+python main.py 'arquivo_testes/g_10x100_a.dat' >> result.txt
+python main.py 'arquivo_testes/g_10x100_b.dat' >> result.txt
+python main.py 'arquivo_testes/g_3x30_a.dat' >> result.txt
+python main.py 'arquivo_testes/g_3x30_b.dat' >> result.txt
+python main.py 'arquivo_testes/g_4x25_a.dat' >> result.txt
+python main.py 'arquivo_testes/g_4x25_b.dat' >> result.txt
+python main.py 'arquivo_testes/g_4x50_a.dat' >> result.txt
+python main.py 'arquivo_testes/g_4x50_b.dat' >> result.txt
+python main.py 'arquivo_testes/g_5x20_a.dat' >> result.txt
+python main.py 'arquivo_testes/g_5x20_b.dat' >> result.txt
+python main.py 'arquivo_testes/g_5x40_a.dat' >> result.txt
+python main.py 'arquivo_testes/g_5x40_b.dat' >> result.txt
+python main.py 'arquivo_testes/g_6x17_a.dat' >> result.txt
+python main.py 'arquivo_testes/g_6x17_b.dat' >> result.txt
+python main.py 'arquivo_testes/g_6x34_a.dat' >> result.txt
+python main.py 'arquivo_testes/g_6x34_b.dat' >> result.txt
+python main.py 'arquivo_testes/g_6x60_a.dat' >> result.txt
+python main.py 'arquivo_testes/g_6x60_b.dat' >> result.txt
+python main.py 'arquivo_testes/g_7x14_a.dat' >> result.txt
+python main.py 'arquivo_testes/g_7x14_b.dat' >> result.txt
+python main.py 'arquivo_testes/g_7x29_a.dat' >> result.txt
+python main.py 'arquivo_testes/g_7x29_b.dat' >> result.txt
+python main.py 'arquivo_testes/g_7x70_a.dat' >> result.txt
+python main.py 'arquivo_testes/g_7x70_b.dat' >> result.txt
+python main.py 'arquivo_testes/g_8x25_a.dat' >> result.txt
+python main.py 'arquivo_testes/g_8x25_b.dat' >> result.txt
+python main.py 'arquivo_testes/g_8x80_a.dat' >> result.txt
+python main.py 'arquivo_testes/g_8x80_b.dat' >> result.txt
+python main.py 'arquivo_testes/g_9x90_a.dat' >> result.txt
+python main.py 'arquivo_testes/g_9x90_b.dat' >> result.txt
+
 
