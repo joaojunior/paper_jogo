@@ -21,8 +21,8 @@ def main(name_file):
             source = int(line[0])
             dest =  int(line[1])
     branch_bound_RSP = BranchBoundRSP(source, dest, digraph_interval)
-    cost, path = branch_bound_RSP.execute()
-    print file_name, cost, path
+    cost, path, time_run = branch_bound_RSP.execute()
+    print file_name, cost, time_run, path
 
 if __name__ == '__main__':
     file_name = sys.argv[1]

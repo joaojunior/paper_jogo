@@ -119,8 +119,7 @@ class BranchBoundRSP(object):
                 if lb_dtwo < robust_cost:
                     self.lower_bound[d_two] = lb_dtwo
                     self.S.append(d_two)
-        return robust_cost, ub_path
-        #, colect_time.cpu_time() - start
+        return robust_cost, ub_path, colect_time.cpu_time() - start
 
     def get_shortest_path_cenario_ub_from_node(self, node):
         edges_in = self.edges_in.get(node, [])

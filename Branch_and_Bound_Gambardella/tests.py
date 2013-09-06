@@ -136,6 +136,20 @@ class TestBranchBoundRSP(unittest.TestCase):
     def test_calculate_lower_bound(self):
         expect = 0
         self.assertEqual(expect, self.branch_bound_rsp.calculate_lower_bound(0))
+
+    def test_apply_rule1(self):
+        d = 0
+        self.branch_bound_rsp.edges_in.update({d:[(0,1)]})
+        out_d_expect = [(0,2)]
+        self.branch_bound_rsp.apply_rule1(d)
+        self.assertEqual(out_d_expect, self.branch_bound_rsp.edges_out[d])
+
+    def test_apply_rule2(self):
+        d = 0
+        self.branch_bound_rsp.edges_in.update({d:[(0,2)]})
+        out_d_expect = [(3,2)]
+        self.branch_bound_rsp.apply_rule2(d)
+        self.assertEqual(out_d_expect, self.branch_bound_rsp.edges_out[d])
     
     def test_execute(self):
         expect_solution = [(0, 2), (2, 3)]
