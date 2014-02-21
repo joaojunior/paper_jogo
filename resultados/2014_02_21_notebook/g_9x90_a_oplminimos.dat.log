@@ -1,0 +1,110 @@
+
+Log started (V12.6.0.0) Thu Feb 20 20:07:25 2014
+
+
+Problem 'instancias/formato_lp/grid/g_9x90_a_oplminimos.dat.lp' read.
+Read time = 9.71 sec. (145.71 ticks)
+Presolve has eliminated 13 rows and 9 columns...
+Presolve has improved bounds 8079 times...
+Tried aggregator 2 times.
+MIP Presolve eliminated 23 rows and 11 columns.
+MIP Presolve modified 10797561 coefficients.
+Aggregator did 6 substitutions.
+Reduced MIP has 12955 rows, 11232 columns, and 10806900 nonzeros.
+Reduced MIP has 6580 binaries, 0 generals, 0 SOSs, and 0 indicators.
+Presolve time = 81.73 sec. (288897.43 ticks)
+Probing fixed 1 vars, tightened 0 bounds.
+Probing time = 0.88 sec. (889.47 ticks)
+Cover probing fixed 0 vars, tightened 80 bounds.
+Tried aggregator 2 times.
+MIP Presolve eliminated 1 rows and 1 columns.
+MIP Presolve modified 8413 coefficients.
+Aggregator did 1 substitutions.
+Reduced MIP has 12953 rows, 11230 columns, and 10803860 nonzeros.
+Reduced MIP has 6579 binaries, 1 generals, 0 SOSs, and 0 indicators.
+Presolve time = 7.49 sec. (3322.56 ticks)
+Probing fixed 1 vars, tightened 0 bounds.
+Probing time = 62.05 sec. (887.37 ticks)
+Clique table members: 1592.
+MIP emphasis: balance optimality and feasibility.
+MIP search method: dynamic search.
+Parallel mode: deterministic, using up to 4 threads.
+Root relaxation solution time = 50.85 sec. (7836.66 ticks)
+
+        Nodes                                         Cuts/
+   Node  Left     Objective  IInf  Best Integer    Best Bound    ItCnt     Gap
+
+      0     0        0.2963   299                      0.2963    10986         
+*     0+    0                            0.7710        0.2963    10986   61.57%
+*     0+    0                            0.7374        0.2963    11302   59.82%
+      0     0        0.3066   305        0.7374     Cuts: 234    11302   58.42%
+      0     0        0.3072   272        0.7374      Cuts: 49    11455   58.34%
+*     0+    0                            0.5222        0.3072    11503   41.17%
+      0     0        0.3072   263        0.5222      Cuts: 15    11503   41.17%
+*     0+    0                            0.5048        0.3072    11503   39.14%
+      0     0        0.3072   263        0.5048      Cuts: 40    11511   39.14%
+      0     0        0.3072   263        0.5048      Cuts: 38    11512   39.14%
+      0     2        0.3072   263        0.5048        0.3072    11512   39.14%
+Elapsed time = 359.35 sec. (419497.11 ticks, tree = 0.01 MB, solutions = 4)
+      2     4        0.3154   253        0.5048        0.3072    11898   39.14%
+      4     6        0.3188   267        0.5048        0.3107    12084   38.45%
+     10    12        0.3263   239        0.5048        0.3119    12813   38.22%
+     14    16        0.3225   296        0.5048        0.3119    13594   38.22%
+     18    20        0.3279   213        0.5048        0.3119    13930   38.22%
+     35    37        0.3459   239        0.5048        0.3119    15467   38.22%
+     48    50        0.3309   117        0.5048        0.3119    16821   38.22%
+     56    58        0.3704   105        0.5048        0.3119    17914   38.22%
+     60    62        0.3322   115        0.5048        0.3119    18285   38.22%
+     97    99        0.3527    56        0.5048        0.3119    22860   38.22%
+Elapsed time = 382.95 sec. (424052.43 ticks, tree = 1.21 MB, solutions = 4)
+    121   123        0.3656    37        0.5048        0.3119    25617   38.22%
+    143   145        0.3604    46        0.5048        0.3119    28047   38.22%
+    178   180        0.3872    41        0.5048        0.3119    31801   38.22%
+    190   192        0.3717    48        0.5048        0.3119    35841   38.22%
+    201   203        0.3663    39        0.5048        0.3119    39091   38.22%
+    228   230        0.3663    47        0.5048        0.3119    40315   38.22%
+    248   250        0.3663    25        0.5048        0.3119    42910   38.22%
+    282   284        0.3774    49        0.5048        0.3119    51399   38.22%
+    338   340        0.3807    49        0.5048        0.3119    57140   38.22%
+    371   373        0.3976    33        0.5048        0.3119    59282   38.22%
+Elapsed time = 427.69 sec. (436026.71 ticks, tree = 3.80 MB, solutions = 4)
+    421   423        0.4002    60        0.5048        0.3119    62571   38.22%
+    459   461        0.3664    59        0.5048        0.3119    64565   38.22%
+    503   505        0.4260    45        0.5048        0.3119    66239   38.22%
+    596   598        0.4344    72        0.5048        0.3119    69927   38.22%
+    643   642        0.4237    26        0.5048        0.3119    72889   38.22%
+    713   711        0.4505    43        0.5048        0.3119    76309   38.22%
+    776   769        0.4444    84        0.5048        0.3119    79234   38.22%
+    836   818        0.3642    53        0.5048        0.3119    81763   38.22%
+    900   875        0.3642    60        0.5048        0.3119    84302   38.22%
+    972   937        0.4401    53        0.5048        0.3119    90275   38.22%
+Elapsed time = 454.66 sec. (446535.04 ticks, tree = 88.37 MB, solutions = 4)
+   1012   975        0.4553    72        0.5048        0.3119    93569   38.22%
+   1067  1021        0.3708    80        0.5048        0.3119    95754   38.22%
+   1118  1066        0.3908    60        0.5048        0.3119    98988   38.22%
+   1159  1089        0.3139   228        0.5048        0.3119   102560   38.22%
+
+Clique cuts applied:  22
+Implied bound cuts applied:  27
+Flow cuts applied:  19
+Mixed integer rounding cuts applied:  178
+Gomory fractional cuts applied:  9
+
+Root node processing (before b&c):
+  Real time             =  358.34 sec. (418669.33 ticks)
+Parallel b&c, 4 threads:
+  Real time             =  242.10 sec. (394030.08 ticks)
+  Sync time (average)   =    9.43 sec.
+  Wait time (average)   =    0.00 sec.
+                          ------------
+Total (root+branch&cut) =  600.45 sec. (812699.41 ticks)
+
+Solution pool: 4 solutions saved.
+
+MIP - Time limit exceeded, integer feasible:  Objective =  5.0477463713e-01
+Current MIP best bound =  3.1400450730e-01 (gap = 0.19077, 37.79%)
+Solution time =  600.45 sec.  Iterations = 117872  Nodes = 1160 (1090)
+Deterministic time = 812699.44 ticks  (1353.48 ticks/sec)
+
+
+Incumbent solution written to file 'instancias/formato_lp/grid/g_9x90_a_oplminimos.dat.sol'.

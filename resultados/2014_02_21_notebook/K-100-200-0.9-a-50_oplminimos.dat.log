@@ -1,0 +1,74 @@
+
+Log started (V12.6.0.0) Thu Feb 20 20:50:03 2014
+
+
+Problem 'instancias/formato_lp/karasans/K-100-200-0.9-a-50_oplminimos.dat.lp' read.
+Read time = 0.05 sec. (1.44 ticks)
+Tried aggregator 2 times.
+MIP Presolve eliminated 5211 rows and 198 columns.
+MIP Presolve modified 30593 coefficients.
+Aggregator did 22 substitutions.
+Reduced MIP has 5275 rows, 5191 columns, and 38610 nonzeros.
+Reduced MIP has 2606 binaries, 0 generals, 0 SOSs, and 0 indicators.
+Presolve time = 0.16 sec. (372.45 ticks)
+Found incumbent of value 1.351351 after 0.18 sec. (385.74 ticks)
+Probing fixed 1 vars, tightened 2647 bounds.
+Probing time = 2.13 sec. (707.71 ticks)
+Cover probing fixed 0 vars, tightened 6001 bounds.
+Tried aggregator 1 time.
+MIP Presolve eliminated 4570 rows and 4535 columns.
+MIP Presolve modified 3149 coefficients.
+Reduced MIP has 705 rows, 656 columns, and 4466 nonzeros.
+Reduced MIP has 331 binaries, 1 generals, 0 SOSs, and 0 indicators.
+Presolve time = 0.02 sec. (17.83 ticks)
+Probing fixed 63 vars, tightened 73 bounds.
+Probing time = 0.04 sec. (32.17 ticks)
+Cover probing fixed 0 vars, tightened 5 bounds.
+Tried aggregator 2 times.
+MIP Presolve eliminated 535 rows and 329 columns.
+MIP Presolve modified 483 coefficients.
+Aggregator did 1 substitutions.
+Reduced MIP has 169 rows, 326 columns, and 1400 nonzeros.
+Reduced MIP has 267 binaries, 1 generals, 0 SOSs, and 0 indicators.
+Presolve time = 0.00 sec. (3.06 ticks)
+Probing time = 0.02 sec. (10.89 ticks)
+Cover probing fixed 0 vars, tightened 2 bounds.
+Tried aggregator 1 time.
+MIP Presolve eliminated 4 rows and 2 columns.
+MIP Presolve modified 8 coefficients.
+Reduced MIP has 165 rows, 324 columns, and 1381 nonzeros.
+Reduced MIP has 267 binaries, 1 generals, 0 SOSs, and 0 indicators.
+Presolve time = 0.00 sec. (0.96 ticks)
+Probing time = 0.01 sec. (3.67 ticks)
+Clique table members: 2621.
+MIP emphasis: balance optimality and feasibility.
+MIP search method: dynamic search.
+Parallel mode: deterministic, using up to 4 threads.
+Root relaxation solution time = 0.00 sec. (0.71 ticks)
+
+        Nodes                                         Cuts/
+   Node  Left     Objective  IInf  Best Integer    Best Bound    ItCnt     Gap
+
+*     0+    0                            1.3514       -1.0000       32  174.00%
+      0     0        0.0238     6        1.3514        0.0238       32   98.24%
+*     0+    0                            0.0244        0.0238       32    2.34%
+      0     0        cutoff              0.0244                     32    0.00%
+Elapsed time = 2.43 sec. (1171.13 ticks, tree = 0.00 MB, solutions = 2)
+
+Root node processing (before b&c):
+  Real time             =    2.43 sec. (1171.33 ticks)
+Parallel b&c, 4 threads:
+  Real time             =    0.00 sec. (0.00 ticks)
+  Sync time (average)   =    0.00 sec.
+  Wait time (average)   =    0.00 sec.
+                          ------------
+Total (root+branch&cut) =    2.43 sec. (1171.33 ticks)
+
+Solution pool: 2 solutions saved.
+
+MIP - Integer optimal solution:  Objective =  2.4390243902e-02
+Solution time =    2.43 sec.  Iterations = 32  Nodes = 0
+Deterministic time = 1171.34 ticks  (482.06 ticks/sec)
+
+
+Incumbent solution written to file 'instancias/formato_lp/karasans/K-100-200-0.9-a-50_oplminimos.dat.sol'.

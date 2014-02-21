@@ -1,0 +1,66 @@
+
+Log started (V12.6.0.0) Thu Feb 20 18:59:50 2014
+
+
+Problem 'instancias/formato_lp/grid/g_7x14_b_oplminimos.dat.lp' read.
+Read time = 0.02 sec. (0.45 ticks)
+Tried aggregator 2 times.
+MIP Presolve eliminated 20 rows and 15 columns.
+MIP Presolve modified 24663 coefficients.
+Aggregator did 4 substitutions.
+Reduced MIP has 1472 rows, 935 columns, and 26238 nonzeros.
+Reduced MIP has 401 binaries, 0 generals, 0 SOSs, and 0 indicators.
+Presolve time = 0.08 sec. (92.79 ticks)
+Probing time = 0.01 sec. (8.35 ticks)
+Cover probing fixed 0 vars, tightened 179 bounds.
+Tried aggregator 2 times.
+MIP Presolve eliminated 143 rows and 6 columns.
+MIP Presolve modified 310 coefficients.
+Aggregator did 15 substitutions.
+Reduced MIP has 1314 rows, 914 columns, and 25813 nonzeros.
+Reduced MIP has 399 binaries, 1 generals, 0 SOSs, and 0 indicators.
+Presolve time = 0.03 sec. (22.56 ticks)
+Probing time = 0.03 sec. (7.63 ticks)
+Clique table members: 322.
+MIP emphasis: balance optimality and feasibility.
+MIP search method: dynamic search.
+Parallel mode: deterministic, using up to 4 threads.
+Root relaxation solution time = 0.04 sec. (31.07 ticks)
+
+        Nodes                                         Cuts/
+   Node  Left     Objective  IInf  Best Integer    Best Bound    ItCnt     Gap
+
+*     0+    0                            0.0978       -1.0000      594     --- 
+      0     0        0.0075    17        0.0978        0.0075      594   92.29%
+*     0+    0                            0.0442        0.0075      630   82.95%
+      0     0        0.0147    19        0.0442      Cuts: 24      630   66.76%
+      0     0        0.0147    19        0.0442       Cuts: 3      634   66.76%
+*     0+    0                            0.0425        0.0147      634   65.43%
+*     0+    0                            0.0149        0.0147      634    1.36%
+      0     0        cutoff              0.0149        0.0149      634    0.00%
+Elapsed time = 0.39 sec. (246.40 ticks, tree = 0.00 MB, solutions = 4)
+
+Clique cuts applied:  1
+Implied bound cuts applied:  3
+Flow cuts applied:  3
+Mixed integer rounding cuts applied:  1
+Lift and project cuts applied:  2
+Gomory fractional cuts applied:  2
+
+Root node processing (before b&c):
+  Real time             =    0.39 sec. (246.45 ticks)
+Parallel b&c, 4 threads:
+  Real time             =    0.00 sec. (0.00 ticks)
+  Sync time (average)   =    0.00 sec.
+  Wait time (average)   =    0.00 sec.
+                          ------------
+Total (root+branch&cut) =    0.39 sec. (246.45 ticks)
+
+Solution pool: 4 solutions saved.
+
+MIP - Integer optimal solution:  Objective =  1.4900662252e-02
+Solution time =    0.39 sec.  Iterations = 634  Nodes = 0
+Deterministic time = 246.45 ticks  (633.66 ticks/sec)
+
+
+Incumbent solution written to file 'instancias/formato_lp/grid/g_7x14_b_oplminimos.dat.sol'.

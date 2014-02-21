@@ -5,6 +5,7 @@ import tempfile
 import shutil
 
 import converte_entrada
+from read_solution import ReadSolution
 
 PATH_OPL_RUN = "/opt/ibm/ILOG/CPLEX_Studio126/opl/bin/x86-64_linux/oplrun"
 PATH_CPLEX = "/opt/ibm/ILOG/CPLEX_Studio126/cplex/bin/x86-64_linux/cplex"
@@ -88,3 +89,17 @@ def _cria_arquivo_com_minimos(nome_arquivo_original,minimos):
     arquivo_novo.write('\nU = %s;' % int(minimos[1]))
     arquivo.close()
     arquivo_novo.close()
+    
+def read_solutions_files(name_file):
+    with open(name_file, 'r') as f:
+        arquivos = f.read().splitlines()
+    read_solution = ReadSolution()
+    f = open('results.txt', 'w')
+    for arquivo in arquivos:
+        read_solution.read_file(arquivo)
+        result = read_solution.get_results()
+        result = ','.join(result)
+        result = result + '\n'
+        f.writelines(result)
+    f.close()
+    

@@ -1,0 +1,130 @@
+
+Log started (V12.6.0.0) Thu Feb 20 21:10:13 2014
+
+
+Problem 'instancias/formato_lp/karasans/K-200-200-0.9-a-10_oplminimos.dat.lp' read.
+Read time = 0.12 sec. (3.34 ticks)
+Tried aggregator 2 times.
+MIP Presolve eliminated 773 rows and 29 columns.
+MIP Presolve modified 196667 coefficients.
+Aggregator did 39 substitutions.
+Reduced MIP has 7076 rows, 4272 columns, and 207128 nonzeros.
+Reduced MIP has 2015 binaries, 0 generals, 0 SOSs, and 0 indicators.
+Presolve time = 1.02 sec. (3244.68 ticks)
+Found incumbent of value 16.588235 after 1.07 sec. (3286.69 ticks)
+Probing fixed 16 vars, tightened 187 bounds.
+Probing time = 0.17 sec. (93.61 ticks)
+Cover probing fixed 0 vars, tightened 1746 bounds.
+Tried aggregator 2 times.
+MIP Presolve eliminated 1945 rows and 192 columns.
+MIP Presolve modified 163411 coefficients.
+Aggregator did 4 substitutions.
+Reduced MIP has 5127 rows, 4076 columns, and 170871 nonzeros.
+Reduced MIP has 1999 binaries, 1 generals, 0 SOSs, and 0 indicators.
+Presolve time = 0.76 sec. (2578.72 ticks)
+Probing fixed 7 vars, tightened 3 bounds.
+Probing time = 0.12 sec. (92.43 ticks)
+Clique table members: 38118.
+MIP emphasis: balance optimality and feasibility.
+MIP search method: dynamic search.
+Parallel mode: deterministic, using up to 4 threads.
+Root relaxation solution time = 0.47 sec. (232.86 ticks)
+
+        Nodes                                         Cuts/
+   Node  Left     Objective  IInf  Best Integer    Best Bound    ItCnt     Gap
+
+*     0+    0                           16.5882       -1.0000     1140  106.03%
+      0     0        0.3908    53       16.5882        0.3908     1140   97.64%
+*     0+    0                            1.0225        0.3908     1140   61.78%
+*     0+    0                            1.0112        0.3908     1213   61.35%
+      0     0        0.4026    48        1.0112      Cuts: 34     1213   60.18%
+      0     0        0.4029    47        1.0112      Cuts: 13     1238   60.16%
+      0     0        0.4029    48        1.0112       Cuts: 4     1243   60.16%
+      0     0        0.4029    48        1.0112  Impl Bds: 22     1250   60.16%
+*     0+    0                            0.7549        0.4029     1250   46.63%
+*     0+    0                            0.7308        0.4086     1250   44.09%
+
+Repeating presolve.
+Tried aggregator 2 times.
+MIP Presolve eliminated 1873 rows and 1839 columns.
+MIP Presolve modified 75661 coefficients.
+Aggregator did 5 substitutions.
+Reduced MIP has 3249 rows, 2232 columns, and 82072 nonzeros.
+Reduced MIP has 1072 binaries, 3 generals, 0 SOSs, and 0 indicators.
+Presolve time = 0.26 sec. (688.18 ticks)
+Probing time = 0.02 sec. (16.29 ticks)
+Tried aggregator 1 time.
+MIP Presolve eliminated 24 rows and 0 columns.
+MIP Presolve modified 72 coefficients.
+Reduced MIP has 3225 rows, 2232 columns, and 82013 nonzeros.
+Reduced MIP has 1072 binaries, 3 generals, 0 SOSs, and 0 indicators.
+Presolve time = 0.04 sec. (36.86 ticks)
+Represolve time = 0.35 sec. (767.24 ticks)
+Probing time = 0.02 sec. (16.18 ticks)
+Clique table members: 11739.
+MIP emphasis: balance optimality and feasibility.
+MIP search method: dynamic search.
+Parallel mode: deterministic, using up to 4 threads.
+Root relaxation solution time = 0.29 sec. (169.37 ticks)
+
+        Nodes                                         Cuts/
+   Node  Left     Objective  IInf  Best Integer    Best Bound    ItCnt     Gap
+
+*     0+    0                            0.7308        0.4086     2934   44.09%
+      0     0        0.4029    46        0.7308        0.4086     2934   44.09%
+      0     0        0.4037    48        0.7308      Cuts: 87     2978   44.09%
+      0     0        0.4040    47        0.7308       Cuts: 5     2995   44.09%
+      0     0        0.4040    47        0.7308       Cuts: 3     2998   44.09%
+      0     2        0.4040    47        0.7308        0.4086     2998   44.09%
+Elapsed time = 5.81 sec. (9335.11 ticks, tree = 0.01 MB, solutions = 5)
+     48    50        0.4605    18        0.7308        0.4142     7754   43.32%
+    189   148        0.5919    16        0.7308        0.4337    12192   40.65%
+    455   309        0.7000    28        0.7308        0.4756    16781   34.92%
+    753   449        0.6612    43        0.7308        0.4965    22993   32.05%
+    952   564        0.5737    32        0.7308        0.5134    26238   29.75%
+   1206   687        0.6919    12        0.7308        0.5236    31270   28.35%
+   1504   805        cutoff              0.7308        0.5323    36917   27.16%
+   1684   902        cutoff              0.7308        0.5392    40545   26.22%
+   1960  1031        cutoff              0.7308        0.5463    45419   25.25%
+   3194  1485        0.6838     7        0.7308        0.5693    65816   22.09%
+Elapsed time = 12.07 sec. (12479.85 ticks, tree = 1.77 MB, solutions = 5)
+   3696  1532        0.4183    55        0.7308        0.5816    75035   20.41%
+   3710  1538        0.4789    25        0.7308        0.5816    76272   20.41%
+   4210   967        0.4956    28        0.7308        0.5816    85325   20.41%
+   4477   866        0.5469    20        0.7308        0.5816    88405   20.41%
+   5191   929        0.5712    17        0.7308        0.5816    95619   20.41%
+   5949  1190        0.6053    26        0.7308        0.5816   104061   20.41%
+   6692  1445        0.6768    16        0.7308        0.5816   113349   20.41%
+   7472  1670        cutoff              0.7308        0.5816   122438   20.41%
+   8145  1742        0.6700    24        0.7308        0.5955   133110   18.51%
+   8998  1675        cutoff              0.7308        0.6105   145704   16.46%
+Elapsed time = 29.92 sec. (23331.48 ticks, tree = 1.90 MB, solutions = 5)
+   9428  1621        0.6601    23        0.7308        0.6242   150491   14.58%
+   9925  1571        0.6419    26        0.7308        0.6346   155380   13.16%
+  10513  1370        0.6544    37        0.7308        0.6462   162957   11.58%
+  11257   960        0.6747    14        0.7308        0.6633   172679    9.24%
+  12489     0        cutoff              0.7308        0.7044   185022    3.61%
+
+Cover cuts applied:  3
+Implied bound cuts applied:  142
+Flow cuts applied:  10
+Mixed integer rounding cuts applied:  28
+Gomory fractional cuts applied:  5
+
+Root node processing (before b&c):
+  Real time             =    5.79 sec. (9322.33 ticks)
+Parallel b&c, 4 threads:
+  Real time             =   33.55 sec. (18808.65 ticks)
+  Sync time (average)   =    2.50 sec.
+  Wait time (average)   =    0.00 sec.
+                          ------------
+Total (root+branch&cut) =   39.35 sec. (28130.98 ticks)
+
+Solution pool: 5 solutions saved.
+
+MIP - Integer optimal solution:  Objective =  7.3076923077e-01
+Solution time =   39.35 sec.  Iterations = 185022  Nodes = 12490
+Deterministic time = 28130.99 ticks  (714.93 ticks/sec)
+
+
+Incumbent solution written to file 'instancias/formato_lp/karasans/K-200-200-0.9-a-10_oplminimos.dat.sol'.

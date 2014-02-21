@@ -1,0 +1,86 @@
+
+Log started (V12.6.0.0) Thu Feb 20 21:29:10 2014
+
+
+Problem 'instancias/formato_lp/karasans/K-1000-200-0.9-a-5_oplminimos.dat.lp' read.
+Read time = 10.50 sec. (187.83 ticks)
+Presolve has eliminated 52 rows and 6 columns...
+Presolve has improved bounds 3258 times...
+Tried aggregator 3 times.
+MIP Presolve eliminated 182 rows and 11 columns.
+MIP Presolve modified 13903405 coefficients.
+Aggregator did 16 substitutions.
+Reduced MIP has 20750 rows, 14730 columns, and 13946351 nonzeros.
+Reduced MIP has 7767 binaries, 0 generals, 0 SOSs, and 0 indicators.
+Presolve time = 173.18 sec. (604086.10 ticks)
+Found incumbent of value 9.127474 after 178.81 sec. (606758.63 ticks)
+Probing fixed 1 vars, tightened 0 bounds.
+Probing time = 0.94 sec. (929.47 ticks)
+Cover probing fixed 0 vars, tightened 804 bounds.
+Presolve has eliminated 4942 rows and 999 columns...
+Presolve has improved bounds 14 times...
+Tried aggregator 2 times.
+MIP Presolve eliminated 4959 rows and 999 columns.
+MIP Presolve modified 13840848 coefficients.
+Aggregator did 3 substitutions.
+Reduced MIP has 15788 rows, 13728 columns, and 13871652 nonzeros.
+Reduced MIP has 7755 binaries, 2 generals, 0 SOSs, and 0 indicators.
+Presolve time = 149.38 sec. (598253.58 ticks)
+Probing time = 1.71 sec. (502.28 ticks)
+Cover probing fixed 0 vars, tightened 670 bounds.
+Clique table members: 13.
+MIP emphasis: balance optimality and feasibility.
+MIP search method: dynamic search.
+Parallel mode: deterministic, using up to 4 threads.
+Root relaxation solution time = 95.01 sec. (8660.37 ticks)
+
+        Nodes                                         Cuts/
+   Node  Left     Objective  IInf  Best Integer    Best Bound    ItCnt     Gap
+
+*     0+    0                            9.1275       -1.0000     6684  110.96%
+      0     0        0.3455   375        9.1275        0.3455     6684   96.21%
+*     0+    0                            0.9356        0.3455     6884   63.07%
+      0     0        0.3628   305        0.9356      Cuts: 47     6884   61.22%
+      0     0        0.3676   260        0.9356      Cuts: 36     7012   60.71%
+      0     0        0.3676   249        0.9356       Cuts: 5     7022   60.71%
+*     0+    0                            0.9340        0.3676     7022   60.64%
+      0     2        0.3676   249        0.9340        0.3676     7022   60.64%
+Elapsed time = 554.62 sec. (1378442.89 ticks, tree = 0.01 MB, solutions = 3)
+      4     6        0.3716   254        0.9340        0.3678     7102   60.62%
+     11    13        0.3729   244        0.9340        0.3687     7945   60.52%
+*    14+   14                            0.9333        0.3687     8203   60.49%
+     14    16        0.3762   252        0.9333        0.3687     8203   60.49%
+     15    17        0.3699   231        0.9333        0.3687     8230   60.49%
+     29    31        0.3887   202        0.9333        0.3688     8669   60.48%
+     33    35        0.3783   176        0.9333        0.3688     8924   60.48%
+     40    42        0.3876   176        0.9333        0.3688     9360   60.48%
+     41    43        0.3851   166        0.9333        0.3688     9378   60.48%
+     73    75        0.4143    86        0.9333        0.3688    10160   60.48%
+    104   106        0.3859    79        0.9333        0.3688    11761   60.48%
+Elapsed time = 592.73 sec. (1387665.27 ticks, tree = 1.12 MB, solutions = 4)
+    150   152        0.3895    78        0.9333        0.3688    13067   60.48%
+
+Implied bound cuts applied:  10
+Flow cuts applied:  3
+Mixed integer rounding cuts applied:  6
+Lift and project cuts applied:  5
+Gomory fractional cuts applied:  37
+
+Root node processing (before b&c):
+  Real time             =  553.17 sec. (1377725.04 ticks)
+Parallel b&c, 4 threads:
+  Real time             =   47.45 sec. (11032.02 ticks)
+  Sync time (average)   =   11.86 sec.
+  Wait time (average)   =    0.00 sec.
+                          ------------
+Total (root+branch&cut) =  600.62 sec. (1388757.06 ticks)
+
+Solution pool: 4 solutions saved.
+
+MIP - Time limit exceeded, integer feasible:  Objective =  9.3328863560e-01
+Current MIP best bound =  3.6881251434e-01 (gap = 0.564476, 60.48%)
+Solution time =  600.62 sec.  Iterations = 13162  Nodes = 153 (154)
+Deterministic time = 1388757.10 ticks  (2312.20 ticks/sec)
+
+
+Incumbent solution written to file 'instancias/formato_lp/karasans/K-1000-200-0.9-a-5_oplminimos.dat.sol'.

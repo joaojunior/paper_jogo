@@ -1,0 +1,60 @@
+
+Log started (V12.6.0.0) Thu Feb 20 20:28:48 2014
+
+
+Problem 'instancias/formato_lp/grid/g_10x100_a_oplminimos.dat.lp' read.
+Read time = 12.51 sec. (227.29 ticks)
+Presolve has eliminated 15 rows and 9 columns...
+Presolve has improved bounds 15403 times...
+Tried aggregator 2 times.
+MIP Presolve eliminated 21 rows and 11 columns.
+MIP Presolve modified 16877160 coefficients.
+Aggregator did 4 substitutions.
+Reduced MIP has 16101 rows, 14006 columns, and 16899786 nonzeros.
+Reduced MIP has 8234 binaries, 0 generals, 0 SOSs, and 0 indicators.
+Presolve time = 160.81 sec. (558280.58 ticks)
+Probing time = 0.74 sec. (614.76 ticks)
+Cover probing fixed 0 vars, tightened 121 bounds.
+Tried aggregator 1 time.
+MIP Presolve eliminated 5 rows and 0 columns.
+MIP Presolve modified 2896 coefficients.
+Reduced MIP has 16096 rows, 14006 columns, and 16899771 nonzeros.
+Reduced MIP has 8234 binaries, 1 generals, 0 SOSs, and 0 indicators.
+Presolve time = 9.50 sec. (4560.06 ticks)
+Probing time = 158.42 sec. (613.56 ticks)
+Clique table members: 1887.
+MIP emphasis: balance optimality and feasibility.
+MIP search method: dynamic search.
+Parallel mode: deterministic, using up to 4 threads.
+Root relaxation solution time = 88.25 sec. (14674.65 ticks)
+
+        Nodes                                         Cuts/
+   Node  Left     Objective  IInf  Best Integer    Best Bound    ItCnt     Gap
+
+      0     0        0.3246   336                      0.3246    22550         
+*     0+    0                            0.7936        0.3246    22550   59.11%
+      0     0        0.3357   324        0.7936     Cuts: 253    22947   57.68%
+
+Flow cuts applied:  210
+Mixed integer rounding cuts applied:  68
+Lift and project cuts applied:  3
+Gomory fractional cuts applied:  6
+
+Root node processing (before b&c):
+  Real time             =  603.00 sec. (725020.26 ticks)
+Parallel b&c, 4 threads:
+  Real time             =    0.00 sec. (0.00 ticks)
+  Sync time (average)   =    0.00 sec.
+  Wait time (average)   =    0.00 sec.
+                          ------------
+Total (root+branch&cut) =  603.00 sec. (725020.26 ticks)
+
+Solution pool: 1 solution saved.
+
+MIP - Time limit exceeded, integer feasible:  Objective =  7.9363891487e-01
+Current MIP best bound =  3.3590248858e-01 (gap = 0.457736, 57.68%)
+Solution time =  603.10 sec.  Iterations = 23107  Nodes = 0 (1)
+Deterministic time = 725020.30 ticks  (1202.15 ticks/sec)
+
+
+Incumbent solution written to file 'instancias/formato_lp/grid/g_10x100_a_oplminimos.dat.sol'.

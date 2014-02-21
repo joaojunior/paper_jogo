@@ -1,0 +1,52 @@
+
+Log started (V12.6.0.0) Thu Feb 20 18:59:50 2014
+
+
+Problem 'instancias/formato_lp/grid/g_7x14_a_oplminimos.dat.lp' read.
+Read time = 0.07 sec. (0.50 ticks)
+Tried aggregator 2 times.
+MIP Presolve eliminated 28 rows and 15 columns.
+MIP Presolve modified 27557 coefficients.
+Aggregator did 7 substitutions.
+Reduced MIP has 1461 rows, 941 columns, and 29153 nonzeros.
+Reduced MIP has 410 binaries, 0 generals, 0 SOSs, and 0 indicators.
+Presolve time = 0.06 sec. (108.97 ticks)
+Probing time = 0.01 sec. (8.13 ticks)
+Cover probing fixed 0 vars, tightened 162 bounds.
+Tried aggregator 3 times.
+MIP Presolve eliminated 116 rows and 4 columns.
+MIP Presolve modified 290 coefficients.
+Aggregator did 11 substitutions.
+Reduced MIP has 1334 rows, 926 columns, and 28804 nonzeros.
+Reduced MIP has 406 binaries, 1 generals, 0 SOSs, and 0 indicators.
+Presolve time = 0.03 sec. (20.61 ticks)
+Probing time = 0.04 sec. (9.62 ticks)
+Clique table members: 311.
+MIP emphasis: balance optimality and feasibility.
+MIP search method: dynamic search.
+Parallel mode: deterministic, using up to 4 threads.
+Root relaxation solution time = 0.05 sec. (28.56 ticks)
+
+        Nodes                                         Cuts/
+   Node  Left     Objective  IInf  Best Integer    Best Bound    ItCnt     Gap
+
+*     0     0      integral     0        0.0000        0.0000      564    0.00%
+Elapsed time = 0.23 sec. (214.22 ticks, tree = 0.00 MB, solutions = 1)
+
+Root node processing (before b&c):
+  Real time             =    0.23 sec. (214.25 ticks)
+Parallel b&c, 4 threads:
+  Real time             =    0.00 sec. (0.00 ticks)
+  Sync time (average)   =    0.00 sec.
+  Wait time (average)   =    0.00 sec.
+                          ------------
+Total (root+branch&cut) =    0.23 sec. (214.25 ticks)
+
+Solution pool: 1 solution saved.
+
+MIP - Integer optimal solution:  Objective =  1.1102230246e-16
+Solution time =    0.23 sec.  Iterations = 564  Nodes = 0
+Deterministic time = 214.26 ticks  (917.01 ticks/sec)
+
+
+Incumbent solution written to file 'instancias/formato_lp/grid/g_7x14_a_oplminimos.dat.sol'.

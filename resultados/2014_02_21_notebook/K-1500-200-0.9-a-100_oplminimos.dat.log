@@ -1,0 +1,28 @@
+
+Log started (V12.6.0.0) Thu Feb 20 23:57:11 2014
+
+
+Problem 'instancias/formato_lp/karasans/K-1500-200-0.9-a-100_oplminimos.dat.lp' read.
+Read time = 2.61 sec. (115.28 ticks)
+Presolve has eliminated 122423 rows and 160 columns...
+Presolve has improved bounds 7802 times...
+Presolve time = 856.90 sec. (3479673.60 ticks)
+
+Root node processing (before b&c):
+  Real time             =  857.01 sec. (3479738.28 ticks)
+Parallel b&c, 4 threads:
+  Real time             =    0.00 sec. (0.00 ticks)
+  Sync time (average)   =    0.00 sec.
+  Wait time (average)   =    0.00 sec.
+                          ------------
+Total (root+branch&cut) =  857.01 sec. (3479738.28 ticks)
+
+
+MIP - Time limit exceeded, no integer solution.
+Current MIP best bound = -1.0000000000e+00 (gap is infinite)
+Solution time =  857.03 sec.  Iterations = 0  Nodes = 0
+Deterministic time = 3479739.09 ticks  (4060.24 ticks/sec)
+
+
+CPLEX Error  1217: No solution exists.
+No file written.

@@ -1,0 +1,59 @@
+
+Log started (V12.6.0.0) Thu Feb 20 21:10:57 2014
+
+
+Problem 'instancias/formato_lp/karasans/K-200-200-0.9-a-50_oplminimos.dat.lp' read.
+Read time = 0.16 sec. (4.33 ticks)
+Tried aggregator 3 times.
+MIP Presolve eliminated 12537 rows and 186 columns.
+MIP Presolve modified 105977 coefficients.
+Aggregator did 164 substitutions.
+Reduced MIP has 17907 rows, 15261 columns, and 118224 nonzeros.
+Reduced MIP has 7605 binaries, 0 generals, 0 SOSs, and 0 indicators.
+Presolve time = 1.11 sec. (3165.86 ticks)
+Found incumbent of value 31.714286 after 1.19 sec. (3206.57 ticks)
+Probing fixed 4 vars, tightened 35 bounds.
+Probing time = 1.42 sec. (345.07 ticks)
+Cover probing fixed 0 vars, tightened 5518 bounds.
+Tried aggregator 2 times.
+MIP Presolve eliminated 2566 rows and 88 columns.
+MIP Presolve modified 35774 coefficients.
+Aggregator did 10 substitutions.
+Reduced MIP has 15331 rows, 15163 columns, and 82774 nonzeros.
+Reduced MIP has 7600 binaries, 0 generals, 0 SOSs, and 0 indicators.
+Presolve time = 0.20 sec. (181.64 ticks)
+Probing time = 0.09 sec. (20.89 ticks)
+Clique table members: 71918.
+MIP emphasis: balance optimality and feasibility.
+MIP search method: dynamic search.
+Parallel mode: deterministic, using up to 4 threads.
+Root relaxation solution time = 0.92 sec. (483.39 ticks)
+
+        Nodes                                         Cuts/
+   Node  Left     Objective  IInf  Best Integer    Best Bound    ItCnt     Gap
+
+*     0+    0                           31.7143       -1.0000       41  103.15%
+      0     0        0.2785    17       31.7143        0.2785       41   99.12%
+*     0+    0                            0.3571        0.2785       41   22.03%
+      0     0        cutoff              0.3571        0.3571       74    0.00%
+Elapsed time = 5.47 sec. (5388.71 ticks, tree = 0.00 MB, solutions = 2)
+
+Mixed integer rounding cuts applied:  10
+
+Root node processing (before b&c):
+  Real time             =    5.47 sec. (5389.35 ticks)
+Parallel b&c, 4 threads:
+  Real time             =    0.00 sec. (0.00 ticks)
+  Sync time (average)   =    0.00 sec.
+  Wait time (average)   =    0.00 sec.
+                          ------------
+Total (root+branch&cut) =    5.47 sec. (5389.35 ticks)
+
+Solution pool: 2 solutions saved.
+
+MIP - Integer optimal solution:  Objective =  3.5714285714e-01
+Solution time =    5.48 sec.  Iterations = 74  Nodes = 0
+Deterministic time = 5389.40 ticks  (983.60 ticks/sec)
+
+
+Incumbent solution written to file 'instancias/formato_lp/karasans/K-200-200-0.9-a-50_oplminimos.dat.sol'.

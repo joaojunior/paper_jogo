@@ -1,0 +1,53 @@
+
+Log started (V12.6.0.0) Thu Feb 20 18:10:41 2014
+
+
+Problem 'instancias/formato_lp/grid/g_5x20_b_oplminimos.dat.lp' read.
+Read time = 0.02 sec. (0.46 ticks)
+Tried aggregator 2 times.
+MIP Presolve eliminated 19 rows and 11 columns.
+MIP Presolve modified 25145 coefficients.
+Aggregator did 3 substitutions.
+Reduced MIP has 1484 rows, 950 columns, and 27145 nonzeros.
+Reduced MIP has 407 binaries, 0 generals, 0 SOSs, and 0 indicators.
+Presolve time = 0.07 sec. (92.10 ticks)
+Probing fixed 0 vars, tightened 4 bounds.
+Probing time = 0.02 sec. (8.88 ticks)
+Cover probing fixed 0 vars, tightened 164 bounds.
+Tried aggregator 3 times.
+MIP Presolve eliminated 159 rows and 12 columns.
+MIP Presolve modified 317 coefficients.
+Aggregator did 13 substitutions.
+Reduced MIP has 1312 rows, 925 columns, and 26687 nonzeros.
+Reduced MIP has 403 binaries, 1 generals, 0 SOSs, and 0 indicators.
+Presolve time = 0.03 sec. (23.92 ticks)
+Probing time = 0.03 sec. (7.79 ticks)
+Clique table members: 320.
+MIP emphasis: balance optimality and feasibility.
+MIP search method: dynamic search.
+Parallel mode: deterministic, using up to 4 threads.
+Root relaxation solution time = 0.03 sec. (25.07 ticks)
+
+        Nodes                                         Cuts/
+   Node  Left     Objective  IInf  Best Integer    Best Bound    ItCnt     Gap
+
+*     0     0      integral     0        0.0000        0.0000      565    0.00%
+Elapsed time = 0.24 sec. (203.40 ticks, tree = 0.00 MB, solutions = 1)
+
+Root node processing (before b&c):
+  Real time             =    0.24 sec. (203.43 ticks)
+Parallel b&c, 4 threads:
+  Real time             =    0.00 sec. (0.00 ticks)
+  Sync time (average)   =    0.00 sec.
+  Wait time (average)   =    0.00 sec.
+                          ------------
+Total (root+branch&cut) =    0.24 sec. (203.43 ticks)
+
+Solution pool: 1 solution saved.
+
+MIP - Integer optimal solution:  Objective =  2.2204460493e-16
+Solution time =    0.24 sec.  Iterations = 565  Nodes = 0
+Deterministic time = 203.44 ticks  (859.17 ticks/sec)
+
+
+Incumbent solution written to file 'instancias/formato_lp/grid/g_5x20_b_oplminimos.dat.sol'.

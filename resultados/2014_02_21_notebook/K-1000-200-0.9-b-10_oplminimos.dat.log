@@ -1,0 +1,114 @@
+
+Log started (V12.6.0.0) Thu Feb 20 22:27:26 2014
+
+
+Problem 'instancias/formato_lp/karasans/K-1000-200-0.9-b-10_oplminimos.dat.lp' read.
+Read time = 8.29 sec. (100.13 ticks)
+Presolve has eliminated 445 rows and 7 columns...
+Presolve has improved bounds 2938 times...
+Tried aggregator 2 times.
+MIP Presolve eliminated 1092 rows and 19 columns.
+MIP Presolve modified 7188071 coefficients.
+Aggregator did 31 substitutions.
+Reduced MIP has 39565 rows, 22513 columns, and 7267262 nonzeros.
+Reduced MIP has 10638 binaries, 0 generals, 0 SOSs, and 0 indicators.
+Presolve time = 157.07 sec. (611373.65 ticks)
+Found incumbent of value 17.707214 after 159.51 sec. (612684.00 ticks)
+Probing time = 0.42 sec. (371.66 ticks)
+Cover probing fixed 0 vars, tightened 4 bounds.
+Tried aggregator 2 times.
+MIP Presolve eliminated 9734 rows and 971 columns.
+MIP Presolve modified 19519 coefficients.
+Aggregator did 2 substitutions.
+Reduced MIP has 29829 rows, 21540 columns, and 7238157 nonzeros.
+Reduced MIP has 10638 binaries, 1 generals, 0 SOSs, and 0 indicators.
+Presolve time = 5.53 sec. (3109.50 ticks)
+Probing time = 1.05 sec. (370.29 ticks)
+Cover probing fixed 1 vars, tightened 4 bounds.
+Clique table members: 27.
+MIP emphasis: balance optimality and feasibility.
+MIP search method: dynamic search.
+Parallel mode: deterministic, using up to 4 threads.
+Root relaxation solution time = 94.39 sec. (9585.89 ticks)
+
+        Nodes                                         Cuts/
+   Node  Left     Objective  IInf  Best Integer    Best Bound    ItCnt     Gap
+
+*     0+    0                           17.7072       -1.0000    13105  105.65%
+      0     0        0.4267   197       17.7072        0.4267    13105   97.59%
+*     0+    0                            1.0424        0.4267    13105   59.06%
+*     0+    0                            1.0141        0.4267    13227   57.92%
+      0     0        0.4307   170        1.0141     Cuts: 196    13227   57.53%
+      0     0        0.4315   132        1.0141      Cuts: 10    13274   57.45%
+      0     0        0.4315   132        1.0141   Impl Bds: 4    13278   57.45%
+*     0+    0                            1.0085        0.4315    13278   57.21%
+*     0+    0                            0.8010        0.4315    13278   46.13%
+*     0+    0                            0.7766        0.4315    13278   44.44%
+      0     2        0.4315   132        0.7766        0.4315    13278   44.44%
+Elapsed time = 362.90 sec. (784129.03 ticks, tree = 0.01 MB, solutions = 6)
+      3     5        0.4321   108        0.7766        0.4319    13522   44.38%
+      9    11        0.4401    76        0.7766        0.4319    14029   44.38%
+     19    21        0.4781    52        0.7766        0.4319    15148   44.38%
+     35    37        0.4693    84        0.7766        0.4319    16108   44.38%
+     44    46        0.4401    36        0.7766        0.4319    16668   44.38%
+     56    58        0.4427    63        0.7766        0.4319    17582   44.38%
+     64    66        0.4431    57        0.7766        0.4319    18553   44.38%
+     68    70        0.4468    59        0.7766        0.4319    19598   44.38%
+     77    79        0.4812    55        0.7766        0.4319    22650   44.38%
+     99   101        0.4840    46        0.7766        0.4319    24547   44.38%
+Elapsed time = 378.96 sec. (788851.18 ticks, tree = 0.22 MB, solutions = 6)
+    122   124        0.4702    45        0.7766        0.4319    26605   44.38%
+    173   175        0.4657    33        0.7766        0.4319    29543   44.38%
+    201   203        0.4913    74        0.7766        0.4319    30763   44.38%
+    225   227        0.4970    74        0.7766        0.4319    32520   44.38%
+    243   245        0.5129    53        0.7766        0.4319    35003   44.38%
+    272   274        0.5150    55        0.7766        0.4319    35785   44.38%
+    301   303        0.5431    35        0.7766        0.4319    38949   44.38%
+    339   341        0.5757    72        0.7766        0.4319    42519   44.38%
+    359   361        0.6015    35        0.7766        0.4319    45316   44.38%
+    401   403        0.5155    55        0.7766        0.4319    48412   44.38%
+Elapsed time = 418.65 sec. (799589.33 ticks, tree = 3.69 MB, solutions = 6)
+    446   448        0.4520    42        0.7766        0.4319    53014   44.38%
+    463   465        0.5293    36        0.7766        0.4319    56574   44.38%
+    495   497        0.5581    33        0.7766        0.4319    64580   44.38%
+    500   502        0.6774    57        0.7766        0.4319    64901   44.38%
+    505   507        0.5400    55        0.7766        0.4319    65306   44.38%
+    545   547        0.4947    32        0.7766        0.4319    69435   44.38%
+    571   573        0.7058    54        0.7766        0.4319    71541   44.38%
+    628   618        0.4420    83        0.7766        0.4322    76130   44.34%
+    629   619        0.4731    72        0.7766        0.4322    76185   44.34%
+    680   664        0.4601    54        0.7766        0.4322    81376   44.34%
+Elapsed time = 452.35 sec. (812231.98 ticks, tree = 10.94 MB, solutions = 6)
+    712   696        0.4748    94        0.7766        0.4322    84326   44.34%
+    751   735        0.5058    47        0.7766        0.4322    88502   44.34%
+    772   754        0.4655    62        0.7766        0.4322    90620   44.34%
+    823   803        0.5345    45        0.7766        0.4322    93413   44.34%
+    866   842        0.5351    69        0.7766        0.4322    98994   44.34%
+    902   877        0.6485    71        0.7766        0.4322   101990   44.34%
+    916   891        0.6413    45        0.7766        0.4322   106425   44.34%
+    950   917        0.6069    68        0.7766        0.4322   109354   44.34%
+    990   957        0.5643    55        0.7766        0.4322   111808   44.34%
+   1026   983        0.5931    65        0.7766        0.4322   112995   44.34%
+Elapsed time = 493.00 sec. (825608.53 ticks, tree = 33.47 MB, solutions = 6)
+   1111  1064        0.4938    61        0.7766        0.4322   116796   44.34%
+   1169  1122        0.6352    48        0.7766        0.4322   119315   44.34%
+   1245  1198        0.6719    43        0.7766        0.4322   122684   44.34%
+
+Root node processing (before b&c):
+  Real time             =  362.30 sec. (783552.14 ticks)
+Parallel b&c, 4 threads:
+  Real time             =  282.94 sec. (647356.14 ticks)
+  Sync time (average)   =   11.12 sec.
+  Wait time (average)   =    0.00 sec.
+                          ------------
+Total (root+branch&cut) =  645.24 sec. (1430908.28 ticks)
+
+Solution pool: 6 solutions saved.
+
+MIP - Time limit exceeded, integer feasible:  Objective =  7.7657004831e-01
+Current MIP best bound =  4.3222667140e-01 (gap = 0.344343, 44.34%)
+Solution time =  645.24 sec.  Iterations = 126965  Nodes = 1348 (1300)
+Deterministic time = 1430908.34 ticks  (2217.65 ticks/sec)
+
+
+Incumbent solution written to file 'instancias/formato_lp/karasans/K-1000-200-0.9-b-10_oplminimos.dat.sol'.

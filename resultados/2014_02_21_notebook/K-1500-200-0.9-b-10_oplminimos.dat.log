@@ -1,0 +1,50 @@
+
+Log started (V12.6.0.0) Fri Feb 21 00:22:19 2014
+
+
+Problem 'instancias/formato_lp/karasans/K-1500-200-0.9-b-10_oplminimos.dat.lp' read.
+Read time = 14.12 sec. (181.69 ticks)
+Presolve has eliminated 337 rows and 8 columns...
+Presolve has improved bounds 4404 times...
+Tried aggregator 3 times.
+MIP Presolve eliminated 1421 rows and 19 columns.
+MIP Presolve modified 13137895 coefficients.
+Aggregator did 42 substitutions.
+Reduced MIP has 59725 rows, 33658 columns, and 13244894 nonzeros.
+Reduced MIP has 15794 binaries, 0 generals, 0 SOSs, and 0 indicators.
+Presolve time = 438.31 sec. (1680591.11 ticks)
+Found incumbent of value 18.729825 after 443.05 sec. (1682915.96 ticks)
+Probing fixed 1 vars, tightened 0 bounds.
+Probing time = 1.24 sec. (1276.92 ticks)
+Cover probing fixed 0 vars, tightened 9 bounds.
+Tried aggregator 2 times.
+MIP Presolve eliminated 14778 rows and 1471 columns.
+MIP Presolve modified 59459 coefficients.
+Aggregator did 1 substitutions.
+Reduced MIP has 44946 rows, 32186 columns, and 13185746 nonzeros.
+Reduced MIP has 15793 binaries, 2 generals, 0 SOSs, and 0 indicators.
+Presolve time = 12.26 sec. (5972.47 ticks)
+
+        Nodes                                         Cuts/
+   Node  Left     Objective  IInf  Best Integer    Best Bound    ItCnt     Gap
+
+      0     0  -1.00000e+37     0       18.7298       -1.0000        0  105.34%
+
+Root node processing (before b&c):
+  Real time             =  635.43 sec. (2061074.15 ticks)
+Parallel b&c, 4 threads:
+  Real time             =    0.00 sec. (0.00 ticks)
+  Sync time (average)   =    0.00 sec.
+  Wait time (average)   =    0.00 sec.
+                          ------------
+Total (root+branch&cut) =  635.43 sec. (2061074.15 ticks)
+
+Solution pool: 1 solution saved.
+
+MIP - Time limit exceeded, integer feasible:  Objective =  1.8729824561e+01
+Current MIP best bound = -1.0000000000e+00 (gap = 19.7298, 105.34%)
+Solution time =  635.43 sec.  Iterations = 0  Nodes = 0
+Deterministic time = 2061074.25 ticks  (3243.58 ticks/sec)
+
+
+Incumbent solution written to file 'instancias/formato_lp/karasans/K-1500-200-0.9-b-10_oplminimos.dat.sol'.
