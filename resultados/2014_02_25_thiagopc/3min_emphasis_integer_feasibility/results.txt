@@ -1,0 +1,70 @@
+instancias/formato_lp/grid/g_3x30_a_oplminimos.dat.lp,0,4.9776007964e-03,0,0.38,0
+instancias/formato_lp/grid/g_3x30_b_oplminimos.dat.lp,0,7.0028011204e-03,0,0.40,0
+instancias/formato_lp/grid/g_4x25_a_oplminimos.dat.lp,0,9.6153556112e-03,0,0.45,0
+instancias/formato_lp/grid/g_4x25_b_oplminimos.dat.lp,0,-1.1102230246e-16,0,0.27,0
+instancias/formato_lp/grid/g_5x20_a_oplminimos.dat.lp,0,6.2383031815e-03,0,0.40,0
+instancias/formato_lp/grid/g_5x20_b_oplminimos.dat.lp,0,2.2204460493e-16,0,0.24,0
+instancias/formato_lp/grid/g_6x17_a_oplminimos.dat.lp,0,-1.1102230246e-16,0,0.22,0
+instancias/formato_lp/grid/g_6x17_b_oplminimos.dat.lp,0,2.2204460493e-16,0,0.17,0
+instancias/formato_lp/grid/g_7x14_a_oplminimos.dat.lp,0,1.1102230246e-16,0,0.24,0
+instancias/formato_lp/grid/g_7x14_b_oplminimos.dat.lp,0,1.4900662252e-02,0,0.31,0
+instancias/formato_lp/grid/g_4x50_a_oplminimos.dat.lp,3.0365624476e-01,4.5232745208e-01,32.87%,180.08,9372
+instancias/formato_lp/grid/g_4x50_b_oplminimos.dat.lp,2.6158512404e-01,3.4458198288e-01,24.09%,180.06,10595
+instancias/formato_lp/grid/g_5x40_a_oplminimos.dat.lp,2.8202701857e-01,4.0679971956e-01,30.67%,180.06,12931
+instancias/formato_lp/grid/g_5x40_b_oplminimos.dat.lp,0,2.8033602987e-01,0,121.88,23239
+instancias/formato_lp/grid/g_6x34_a_oplminimos.dat.lp,0,3.3643724696e-01,0,142.77,18074
+instancias/formato_lp/grid/g_6x34_b_oplminimos.dat.lp,3.5536403395e-01,5.5600528311e-01,36.09%,180.03,14930
+instancias/formato_lp/grid/g_7x29_a_oplminimos.dat.lp,3.1253090835e-01,4.4987565621e-01,30.53%,180.02,21044
+instancias/formato_lp/grid/g_7x29_b_oplminimos.dat.lp,3.5461373063e-01,5.4572377012e-01,35.02%,180.04,18383
+instancias/formato_lp/grid/g_8x25_a_oplminimos.dat.lp,0,2.6878612717e-01,0,17.78,902
+instancias/formato_lp/grid/g_8x25_b_oplminimos.dat.lp,2.9746146216e-01,4.0772035265e-01,27.04%,180.04,36094
+instancias/formato_lp/grid/g_6x60_a_oplminimos.dat.lp,2.8865561124e-01,4.2567975021e-01,32.19%,182.84,3794
+instancias/formato_lp/grid/g_6x60_b_oplminimos.dat.lp,2.9361673418e-01,5.1046859422e-01,42.48%,180.57,3514
+instancias/formato_lp/grid/g_7x70_a_oplminimos.dat.lp,3.2810723698e-01,6.3204491471e-01,48.09%,180.39,0
+instancias/formato_lp/grid/g_7x70_b_oplminimos.dat.lp,3.3111661599e-01,5.5327597617e-01,40.15%,180.22,600
+instancias/formato_lp/grid/g_8x80_a_oplminimos.dat.lp,0,No solution exists,0,194.42,0
+instancias/formato_lp/grid/g_8x80_b_oplminimos.dat.lp,0,No solution exists,0,195.32,0
+instancias/formato_lp/grid/g_9x90_a_oplminimos.dat.lp,0,No solution exists,0,191.78,0
+instancias/formato_lp/grid/g_9x90_b_oplminimos.dat.lp,0,No solution exists,0,183.22,0
+instancias/formato_lp/grid/g_10x100_a_oplminimos.dat.lp,0,No solution exists,0,226.78,0
+instancias/formato_lp/grid/g_10x100_b_oplminimos.dat.lp,0,No solution exists,0,184.91,0
+instancias/formato_lp/karasans/K-100-200-0.9-a-2_oplminimos.dat.lp,0,-4.4408920985e-16,0,0.20,0
+instancias/formato_lp/karasans/K-100-200-0.9-b-2_oplminimos.dat.lp,0,1.3322676296e-15,0,0.16,0
+instancias/formato_lp/karasans/K-100-200-0.9-a-5_oplminimos.dat.lp,0,2.2727272727e-02,0,0.21,0
+instancias/formato_lp/karasans/K-100-200-0.9-b-5_oplminimos.dat.lp,0,7.8369905956e-03,0,0.21,0
+instancias/formato_lp/karasans/K-100-200-0.9-a-10_oplminimos.dat.lp,0,6.2500000000e-03,0,0.33,0
+instancias/formato_lp/karasans/K-100-200-0.9-b-10_oplminimos.dat.lp,0,-2.7755575616e-17,0,0.19,0
+instancias/formato_lp/karasans/K-100-200-0.9-a-25_oplminimos.dat.lp,0,-3.3306690739e-16,0,0.35,0
+instancias/formato_lp/karasans/K-100-200-0.9-b-25_oplminimos.dat.lp,0,1.3513513514e-02,0,0.51,0
+instancias/formato_lp/karasans/K-100-200-0.9-a-50_oplminimos.dat.lp,0,2.4390243902e-02,0,1.37,0
+instancias/formato_lp/karasans/K-100-200-0.9-b-50_oplminimos.dat.lp,0,0.0000000000e+00,0,2.17,0
+instancias/formato_lp/karasans/K-200-200-0.9-a-2_oplminimos.dat.lp,3.8058279463e-01,6.0928513494e-01,37.54%,180.02,30887
+instancias/formato_lp/karasans/K-200-200-0.9-b-2_oplminimos.dat.lp,3.7389851094e-01,5.9680134656e-01,37.35%,180.10,34059
+instancias/formato_lp/karasans/K-200-200-0.9-a-5_oplminimos.dat.lp,3.8079894577e-01,6.0196534997e-01,36.74%,180.02,51607
+instancias/formato_lp/karasans/K-200-200-0.9-a-5_oplminimos.dat.lp,3.8079894577e-01,6.0196534997e-01,36.74%,180.02,51607
+instancias/formato_lp/karasans/K-200-200-0.9-a-10_oplminimos.dat.lp,0,7.3076923077e-01,0,41.18,23956
+instancias/formato_lp/karasans/K-200-200-0.9-b-10_oplminimos.dat.lp,0,7.2093023256e-01,0,6.85,1727
+instancias/formato_lp/karasans/K-200-200-0.9-a-25_oplminimos.dat.lp,0,4.5833333333e-01,0,3.83,0
+instancias/formato_lp/karasans/K-200-200-0.9-b-25_oplminimos.dat.lp,7.6923076758e-01,7.6923076923e-01,0.00%,4.57,0
+instancias/formato_lp/karasans/K-200-200-0.9-a-50_oplminimos.dat.lp,0,3.5714285714e-01,0,5.78,0
+instancias/formato_lp/karasans/K-200-200-0.9-b-50_oplminimos.dat.lp,0,2.5000000000e-01,0,5.12,0
+instancias/formato_lp/karasans/K-1000-200-0.9-a-5_oplminimos.dat.lp,0,No solution exists,0,244.50,0
+instancias/formato_lp/karasans/K-1000-200-0.9-b-5_oplminimos.dat.lp,0,No solution exists,0,270.29,0
+instancias/formato_lp/karasans/K-1000-200-0.9-a-10_oplminimos.dat.lp,0,No solution exists,0,313.87,0
+instancias/formato_lp/karasans/K-1000-200-0.9-b-10_oplminimos.dat.lp,0,No solution exists,0,244.04,0
+instancias/formato_lp/karasans/K-1000-200-0.9-a-25_oplminimos.dat.lp,0,No solution exists,0,232.80,0
+instancias/formato_lp/karasans/K-1000-200-0.9-b-25_oplminimos.dat.lp,0,No solution exists,0,235.93,0
+instancias/formato_lp/karasans/K-1000-200-0.9-a-50_oplminimos.dat.lp,0,No solution exists,0,284.64,0
+instancias/formato_lp/karasans/K-1000-200-0.9-b-50_oplminimos.dat.lp,0,No solution exists,0,260.50,0
+instancias/formato_lp/karasans/K-1000-200-0.9-a-100_oplminimos.dat.lp,0,No solution exists,0,487.79,0
+instancias/formato_lp/karasans/K-1000-200-0.9-b-100_oplminimos.dat.lp,0,No solution exists,0,556.65,0
+instancias/formato_lp/karasans/K-1500-200-0.9-a-5_oplminimos.dat.lp,0,No solution exists,0,746.11,0
+instancias/formato_lp/karasans/K-1500-200-0.9-b-5_oplminimos.dat.lp,0,No solution exists,0,679.53,0
+instancias/formato_lp/karasans/K-1500-200-0.9-a-10_oplminimos.dat.lp,0,No solution exists,0,739.76,0
+instancias/formato_lp/karasans/K-1500-200-0.9-b-10_oplminimos.dat.lp,0,No solution exists,0,667.61,0
+instancias/formato_lp/karasans/K-1500-200-0.9-a-25_oplminimos.dat.lp,0,No solution exists,0,621.28,0
+instancias/formato_lp/karasans/K-1500-200-0.9-b-25_oplminimos.dat.lp,0,No solution exists,0,732.85,0
+instancias/formato_lp/karasans/K-1500-200-0.9-a-50_oplminimos.dat.lp,0,No solution exists,0,769.85,0
+instancias/formato_lp/karasans/K-1500-200-0.9-b-50_oplminimos.dat.lp,0,No solution exists,0,875.32,0
+instancias/formato_lp/karasans/K-1500-200-0.9-a-100_oplminimos.dat.lp,0,No solution exists,0,1381.09,0
+instancias/formato_lp/karasans/K-1500-200-0.9-b-100_oplminimos.dat.lp,0,No solution exists,0,1312.04,0
